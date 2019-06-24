@@ -19,7 +19,7 @@
     "hexo-server": "^0.3.3"
   },
   "scripts": {
-    "start": "pm2 start --name blog hexo -p 80 -- s",
+    "start": "pm2 start --name blog hexo -- s -p 80",
     "stop": "pm2 stop blog",
     "delete": "pm2 delete blog",
     "status": "pm2 status blog",
