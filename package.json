@@ -17,5 +17,12 @@
     "hexo-renderer-sass": "^0.4.0",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3"
+  },
+  "scripts": {
+    "start": "pm2 start --name blog hexo -p 80 -- s",
+    "stop": "pm2 stop blog",
+    "delete": "pm2 delete blog",
+    "status": "pm2 status blog",
+    "restart": "pm2 restart blog"
   }
 }
