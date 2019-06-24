@@ -75,11 +75,10 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: maupassant
 
+#Disqus
+disqus_shortname: deffisoan
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-
-          
-#Disqus
-disqus_shortname: deffisoan
